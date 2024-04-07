@@ -1,0 +1,39 @@
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.slider-image {
+    width: 100%;
+    display: block;
+    height: auto;
+    max-height: 500px; 
+    object-fit: cover;
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.slider-button-left {
+    left: 0;
+}
+
+.slider-button-right {
+    right: 0;
+}
+
+.slider-indicator {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 16px;
+}

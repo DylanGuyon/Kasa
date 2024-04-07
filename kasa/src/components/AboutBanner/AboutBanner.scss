@@ -1,0 +1,31 @@
+.aboutbanner-wrapper {
+    padding-bottom: 70px; 
+}
+
+.aboutbanner-container {
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    max-width: 1340px;
+    margin: auto;
+}
+
+.aboutbanner-img {
+    position: relative;
+    z-index: 1; /* Pour s'assurer que l'image est au-dessous du texte */
+    border-radius: 20px;
+    height: 200px;
+    width: 1340px;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    border-radius: 20px;
+}

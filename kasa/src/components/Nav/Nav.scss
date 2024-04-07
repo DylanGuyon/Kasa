@@ -1,0 +1,19 @@
+.nav-header {
+	display: flex;
+	gap: 30px;
+}
+
+.nav-header a {
+	align-items: center; /* Aligne les éléments sur l'axe vertical */
+	color: black;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+.nav-header a.active {
+    color: #FF6060; 
+}
+
+.nav-header a:hover {
+	color:#FF6060;
+}
