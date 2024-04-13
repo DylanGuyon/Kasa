@@ -23,7 +23,8 @@ const router = createBrowserRouter([
   },
   {
     path: "/logement/:id", 
-    element: <Logement />
+    element: <Logement />,
+    errorElement: <Error />
   }
 ]);
 
